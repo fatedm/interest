@@ -1,0 +1,120 @@
+#content{
+    width: 600px;
+    margin:  20px auto;
+}
+#nav{
+    height: 40px;
+    position: relative;
+}
+#nav .num{
+    float: left;
+    padding: 3px;
+    border:  1px solid #808080;
+    color: red;
+    background:  #000;
+    font: bold 24px/28px Arial;
+    width: 60px;
+    text-align:center;
+    border-radius: 5px;
+    -webkit-radius: 5px;
+}
+#nav .floor{
+    float: left;
+    margin-left: 10px;
+    color:  #fff;
+    padding: 3px;
+    border:  1px solid #488FCD;
+    background:  #488FCD;
+    font: bold 24px/28px Arial;
+    width: 80px;
+    text-align:center;
+    border-radius: 5px;
+    -webkit-radius: 5px;
+}
+#nav .time{
+    float: right;
+    padding: 3px;
+    border:  1px solid #808080;
+    color: red;
+    background:  #000;
+    font: bold 24px/28px Arial;
+    width: 60px;
+    text-align:center;
+    border-radius: 5px;
+    -webkit-radius: 5px;
+}
+#nav .isFlag{
+    float: right;
+    padding: 3px;
+    border:  1px solid #808080;
+    color: green;
+    background:  #fff;
+    font: bold 24px/28px Arial;
+    width: 80px;
+    text-align:center;
+    border-radius: 5px;
+    margin-right: 10px;
+    -webkit-radius: 5px;
+}
+#nav .flaging{
+    background: red;
+}
+.ks-button{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    cursor: pointer;
+    left: 199px;
+    text-align: center;
+    border: 1px solid #CCC;
+    padding: 4px 10px;
+    height: 34px;
+    color: #666;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    background-image: -moz-linear-gradient(-90deg, #F7F7F7, #E2E2E2);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F7F7F7), color-stop(1, #E2E2E2));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#f7f7f7', EndColorStr = '#e2e2e2');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f7f7f7', EndColorStr='#e2e2e2')";
+}
+#nav .disabled{
+    cursor: default:
+}
+#table td{
+    padding:  5px;
+    font:  bold 14px/20px Arial;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+#table{
+    table-layout: fixed;
+    width: 600px;
+}
+#table td{
+    
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #808080;
+    background: #c0c0c0;
+}
+#table .flag{
+    background-color: red;
+}
+#table .open{
+    background:  #fff;
+}
+#table .num{
+    background:  #fff;
+    color: red;
+}
