@@ -1,3 +1,10 @@
+/*
+combined files : 
+
+page/mods/bomb
+page/init
+
+*/
 /**
  * FileOverView:扫雷
  * Author: fatedm
@@ -20,7 +27,7 @@
  * @mines: 开始的雷数
  * @time: 时间限制
  */
-KISSY.add(function(S){
+KISSY.add('page/mods/bomb',function(S){
     var $ = S.Node.all,
         D = S.DOM,
         config = {
@@ -279,4 +286,14 @@ KISSY.add(function(S){
         }
     });
     return Bomb;
+});
+/**
+ * @fileOverview 
+ * @author  
+ */
+KISSY.add('page/init',function (S, Bomb) {
+    // your code here
+    new Bomb();
+}, {
+    requires: ['./mods/bomb']
 });
