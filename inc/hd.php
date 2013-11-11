@@ -2,11 +2,12 @@
 <html>
 	<head>
 		<meta charset="GBK">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $title; ?></title>
          <base target="_blank">
 		<link href="./assets/common/global.css" rel="stylesheet">
 		<link href="./assets/<?php echo $page ?>/<?php echo $version ?>/page/style.css" rel="stylesheet">
-		<script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js" charset="utf-8"></script>
+		<script src="http://a.tbcdn.cn/s/kissy/1.3.0/kissy-min.js" charset="utf-8"></script>
         <script src="./assets/common/package-config.js"></script>
         <script type="text/javascript">
             FB.config({

@@ -1,0 +1,82 @@
+/*
+combined files : 
+
+*/
+
+.order-form {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.order-form li {
+    margin-bottom: 18px;
+    padding-left: 110px;
+}
+
+.order-form .field {
+    float: left;
+    margin-left: -110px;
+    text-align: right;
+    width: 100px;
+    height: 27px;
+    line-height: 27px;
+}
+
+.order-form .field span {
+    color: #f60;
+    vertical-align: middle;
+}
+
+.order-form .text {
+    border: 1px solid #ccc;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    width: 220px;
+}
+
+.order-form .date {
+    width: 150px;
+    margin-right: 3px;
+    cursor: text;
+}
+
+.order-form select {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.order-form textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 220px;
+    min-width: 220px;
+    max-width: 588px;
+    height: 60px;
+}
+
+.order-form .text:focus, .order-form textarea:focus {
+    background: #fafafa;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.order-form button {
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.placeholder {
+    position: relative;
+}
+
+.placeholder label {
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    color: #999;
+    position: absolute;
+    top: 0;
+    cursor: text;
+    margin-left: 5px;
+}
